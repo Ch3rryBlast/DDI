@@ -15,10 +15,10 @@
 .header {
     font-size: 50px;
     margin-left: 650px;
-    
+    vertical-align: top; 
 }
 
-.confo {
+.Cbutton {
     width: 835px;
     height: 125px;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -29,7 +29,7 @@
     border-radius: 20px;
 }
 
-.confo:hover {
+.Cbutton:hover {
     color:green;
     border-color:lawngreen;
     background-color: rgb(17, 216, 17); /* Change to a different color on hover */
