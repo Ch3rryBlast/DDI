@@ -10,20 +10,45 @@
     <title>Drug to Drug Interaction</title>
 </head>
 <body>
+    <div class="hbox" style="display: flex; justify-content: center; align-items: center;">
     <h1 class="header">Drug To Drug Interaction</h1>
-    <div class="video-background">
-        <video autoplay muted loop>
-            <source src="your-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div class = "content">
-            <input type="text" id="D1" name="D2" class="D1" placeholder="Input Drug"><br><br>
-            <input type="text" id="D2" name="D1" class="D2" placeholder="Input Drug"><br><br>
-            <input type="button" id="Cbutton" name="Cbutton" class="Cbutton" value="Confirm"><br><br>
-            <h2 class="interaction">PLACE HOLDER FOR FUTURE REACTIONS</h2>
-            <h2 class="des1">PLACE HOLDER FOR DESCRIPTION FOR DRUG</h2>
-            <h2 class="des2">PLACE HOLDER FOR DESCRIPTION FOR DRUG</h2>
-        </div>
     </div>
+
+    <table>
+        <tr>
+            <td>
+                <div class="box" id="box1" style="display: flex; justify-content: center; align-items: center;">
+                <input type="text" id="D1" name="D2" class="D1" placeholder="Input Drug"><br><br>
+                </div>
+            </td>
+            <td>
+            </td>
+            <td>
+                <label class="des1">PLACE HOLDER FOR DESCRIPTION FOR DRUG</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="box" style="display: flex; justify-content: center; align-items: center;">
+                <input type="text" id="D2" name="D1" class="D2" placeholder="Input Drug"><br><br>
+                </div>
+            </td>
+            <td> 
+            </td>
+            <td>
+                <label class="des2">PLACE HOLDER FOR DESCRIPTION FOR DRUG</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" id="Cbutton" name="Cbutton" class="Cbutton" value="Confirm"><br><br>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+    </table>
+    <h2 class="interaction">PLACE HOLDER FOR FUTURE REACTIONS</h2>
 </body>
 </html>

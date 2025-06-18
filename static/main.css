@@ -1,37 +1,78 @@
+body {
+      margin: 0;
+    }
+
 .D1 {
-    width: 835px;
-    height: 125px;
+    width: 650px;
+    height: 63px;
     font-size: 30px;
-    border-radius: 20px;
+    border-radius: 30px;
+    border-width: 0px;
 }
 
 .D2 {
-    width: 835px;
-    height: 125px;
+    width: 650px;
+    height: 63px;
     font-size: 30px;
-    border-radius: 20px;
+    border-radius: 30px;
+    border-width: 0px;
 }
 
 .header {
-    font-size: 50px;
-    margin-left: 650px;
+    font-size: 60px;
+    margin-left: 20px;
     vertical-align: top; 
+    margin-bottom: 50px;
+    color: white;
 }
 
 .Cbutton {
-    width: 835px;
+    width: 850px;
     height: 125px;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    background-color: green;
-    border-color: forestgreen;
+    background-color: lightgreen;
     font-size: 80px;
-    color: lightgreen;
+    color: white;
     border-radius: 20px;
+    margin-bottom: 20px;
+    border-width: 0px;
+    margin-left: 10px;
 }
 
 .Cbutton:hover {
-    color:green;
-    border-color:lawngreen;
-    background-color: rgb(17, 216, 17); /* Change to a different color on hover */
+    color:white;;
+    background-color: green;
     transform: scale(1.05); /* Slightly scale the button */
+}
+
+.des1 {
+    margin-left: 325px;
+}
+
+.des2 {
+    margin-left: 325px;
+}
+
+.box {
+    background-color: lightgreen;
+    width: 850px;
+    height: 150px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.hbox {
+    background-color: forestgreen;
+    width: 1900px;
+    height: 90px;
+    margin-bottom: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#box1 {
+    margin-top: 150px;
 }
