@@ -21,6 +21,12 @@ def after_request(response):
     response.headers["Pragma"] = "no-cache"
     return response
 
-@app.route("/")
+@app.route("/", methods=["GET", "POST"])
 def index():
-    return render_template("index.html")
+    """The site's main route"""
+    session.clear
+    if request.method == "GET":
+        return render_template("index.html")
+    else:
+        #TODO
+        ...
